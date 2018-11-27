@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.fsproj", "{42092555-9595-4D8D-BE33-4CBB8FF5B441}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "NATS.Client.FSharp", "NATS.Client.FSharp\NATS.Client.FSharp.fsproj", "{DE5D92B7-4FBC-4A89-943E-29F387D21CBB}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "STAN.Client.FSharp", "STAN.Client.FSharp\STAN.Client.FSharp.fsproj", "{63E9610B-039A-4A7B-A7E9-DCFF45AE2C5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{42092555-9595-4D8D-BE33-4CBB8FF5B441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{42092555-9595-4D8D-BE33-4CBB8FF5B441}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{42092555-9595-4D8D-BE33-4CBB8FF5B441}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{42092555-9595-4D8D-BE33-4CBB8FF5B441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE5D92B7-4FBC-4A89-943E-29F387D21CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE5D92B7-4FBC-4A89-943E-29F387D21CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE5D92B7-4FBC-4A89-943E-29F387D21CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE5D92B7-4FBC-4A89-943E-29F387D21CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63E9610B-039A-4A7B-A7E9-DCFF45AE2C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63E9610B-039A-4A7B-A7E9-DCFF45AE2C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63E9610B-039A-4A7B-A7E9-DCFF45AE2C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63E9610B-039A-4A7B-A7E9-DCFF45AE2C5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

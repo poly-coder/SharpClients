@@ -1,0 +1,1 @@
+call node scripts\packscript.js p:clients c:publish -a -f
